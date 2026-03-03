@@ -27,3 +27,17 @@ python -m pip install -r requirements-prework.txt
 2. Complete the work
 3. Push the branch and open a PR from your branch to `main`
 4. Submit the PR URL in TalentLMS
+## How to run
+
+1. Activate the virtual environment:
+   - Windows: `source .venv/Scripts/activate`
+   - Mac/Linux: `source .venv/bin/activate`
+
+2. Install dependencies:
+   `pip install -r requirements-prework.txt`
+
+3. Run the main script:
+   `python scripts/benchmark.py`
+
+4. Confirm success:
+   The script runs without errors and prints the expected output in the terminal.
